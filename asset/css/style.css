@@ -139,3 +139,28 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
   main { grid-template-columns: minmax(0, 1fr); padding-top: 40px; }
   .right { border-left: 0; padding-left: 0; margin-top: 36px; border-top: 1px solid var(--line); padding-top: 28px; }
 }
+
+.handle-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 2px;
+}
+.handle-row p { margin: 0; }
+.badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid var(--line);
+}
+.badges img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  transition: translate .15s;
+}
+.badges img:hover { translate: 0 -2px; }
