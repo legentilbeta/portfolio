@@ -52,7 +52,7 @@ main {
 }
 .banner {
   height: 150px;
-  background: #1a1b1e url("../image/discord/banner.gif") center / cover no-repeat;
+  background: #000000 url("../image/discord/banner.gif") center / cover no-repeat;
 }
 .avatar-wrap {
   position: relative;
